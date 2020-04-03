@@ -1,0 +1,11 @@
+body {
+  background-color: royalblue;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
