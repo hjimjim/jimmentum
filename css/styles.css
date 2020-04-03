@@ -1,5 +1,5 @@
 body {
-  background-color: royalblue;
+  background-color: #2d3436;
 }
 
 .invisible {
@@ -8,4 +8,23 @@ body {
 
 .visible {
   display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.js-bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
 }
